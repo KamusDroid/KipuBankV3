@@ -1,0 +1,60 @@
+# ============================
+# Foundry / Forge
+# ============================
+/out/
+/cache/
+/broadcast/
+/coverage/
+/coverage.json
+/foundry.toml.lock
+
+# Ignore artifacts from forge test fuzzing
+/fuzz/
+
+/logs/
+
+# ----------------------------
+# Node / JS (si usas frontend o scripts)
+/node_modules/
+package-lock.json
+yarn.lock
+/dist/
+/build/
+
+# ----------------------------
+# Environment
+.env
+.env.local
+.env.*.local
+
+# ----------------------------
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Webstorm / JetBrains
+.idea/
+
+# ----------------------------
+# Python (si usas scripts)
+/__pycache__/
+*.pyc
+
+# ----------------------------
+# Tests output
+*.coverage
+*.lcov
+
+# ----------------------------
+# Key files (IMPORTANT)
+private_key.txt
+secret.txt
+*.pem
+*.key
